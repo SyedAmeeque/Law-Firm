@@ -1,0 +1,1154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+.form-overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: auto;
+    display: none;
+
+}
+.close-btn2:hover{
+    cursor: pointer;
+}
+.news-letter{
+    width: 800px;
+    min-height: 400px;
+}
+.letter-form{
+    width: 50%;
+    padding: 40px 20px;
+}
+.letter-form .input input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.letter-form .ball{
+    background-color: #303952;
+}
+.letter-form .ball a{
+    color: #fff;
+}
+.letter-form .input{
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+.letter-img{
+    width: 50%;
+}
+.letter-img img{
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+/* <!-- navigation start here....................  --> */
+.navbar .d-flex li{
+    list-style: none;
+    margin: 10px;
+    
+}
+.navbar .d-flex li a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}   
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+a:hover,.navbar .d-flex li a:hover,.navbar-nav .nav-item .nav-link:hover,.menu li a:hover{
+    color: #ccae62;
+    transition: all 0.5s ease-in-out;
+    
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.menu-btn:hover,.close-btn:hover{
+    cursor: pointer;
+}
+.add{
+    color: #ccae62;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}   
+.menu li a{
+    color: #fff;
+}
+.menu li{
+    list-style: none;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.menu{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.box{
+    background-color: #303952;
+    height: 100vh;
+    padding: 40px;
+    overflow-y: auto;
+}
+.btn-1{
+    padding: 15px 20px;
+    background-color: none;
+    color: #fff;
+    border-top: 1px solid #ccae62;
+    border-left: 1px solid #ccae62;
+    border-bottom: 5px solid #ccae62;
+    border-right: 5px solid #ccae62;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-1:hover{
+    background-color: #ccae62;
+    border-bottom: 1px solid #ccae62;
+    border-right: 1px solid #ccae62;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.btn-3{
+    padding: 15px 20px;
+    background-color: #ccae62;
+    color: #fff;
+    border-top: 1px solid #ccae62;
+    border-left: 1px solid #ccae62;
+    border-bottom: 5px solid #303952;
+    border-right: 5px solid #303952;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-3:hover{
+    background-color: #303952;
+    border-bottom: 1px solid #303952;
+    border-right: 1px solid #303952;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+/* <!-- navigation ends here....................  --> */
+
+/* <!-- banner start here....................  --> */
+
+.banner{
+    width: 100%;
+}
+.banner1{
+    width: 100%;
+    min-height:100vh ;
+    background: url(../images/page1/dy-slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner2{
+    width: 100%;
+    min-height:100vh ;
+    background: url(../images/page1/Rectangle-329.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner3{
+    width: 100%;
+    min-height:100vh ;
+    background: url(../images/page1/Rectangle-331.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.padding{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.banner1 img,.banner2 img,.banner3 img{
+    border-radius: 50px;
+}
+.swiper-pagination-bullet{
+    background-color: #fff;
+    width: 100px;
+    padding: 20px;
+    position: relative;
+    border: 2px solid #fff;
+}
+.swiper-pagination-bullet:nth-child(1):after{
+    content: '1';
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+
+}
+.swiper-pagination-bullet:nth-child(2):after{
+    content: '2';
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+.swiper-pagination-bullet:nth-child(3):after{
+    content: '3';
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+
+}
+.text a,.text p{
+    writing-mode: vertical-rl;
+    text-orientation: revert;
+    color: #fff;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    transform: rotate(180deg);
+}
+.rotate-text{
+    position: relative;
+}
+.rotate-text img{
+    animation: rotate 5s infinite linear;
+    transition: all 5s linear;
+}
+.rotate-text i{
+    position: absolute;
+    top: 45%;
+    left: 49.5%;
+}
+@media screen and (max-width:992px) {
+    .rotate-text i{
+        left: 49%;
+    }
+}
+@media screen and (max-width:550px) {
+    .rotate-text i{
+        left: 48%;
+    }
+}
+@media screen and (max-width:550px) {
+    .rotate-text i{
+        left: 48%;
+    }
+    .que1 h5,.que2 h5,.que3 h5,.que4 h5{
+        font-size: 16px;
+    }
+    .que1 p,.que2 p,.que3 p,.que4 p{
+        font-size: 16px;
+    }
+}
+.video-overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: none;
+}
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.video-btn:hover,.video-close-btn:hover{
+    cursor: pointer;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(45deg);
+    }25%{
+        transform: rotate(90deg);
+    }50%{
+        transform: rotate(180deg);
+
+    }75%{
+        transform: rotate(270deg);
+
+    }100%{
+        transform: rotate(360deg);
+
+    }
+}
+@media screen and (max-width:768px){
+    .text{
+        display: none;
+    }
+}
+/* <!-- banner ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+.card{
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all 0.5 ease-in-out;
+
+}
+
+.card p{
+    color: #ccae62;
+    font-weight: bold;
+}
+.card:hover p{
+    color: #fff;
+}
+.card1{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(48,57,82,0.8),rgba(48,57,82,0.8)),url(../images/page1/practices-area-hover-image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+}
+.card1 h4:hover{
+    color: #ccae62;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.card2:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card3:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card4:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card5:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card6:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card7:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card8:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+.card9:hover{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page1/practices-area-hover-image-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    color: #fff;
+    transition: all 0.5 ease-in-out;
+}
+
+
+
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+.bg-sider{
+    width: 100%;
+    min-height: 100vh;
+    background:  linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page1/list-sider-bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.text2 h1{
+    writing-mode: vertical-rl;
+    font-weight: bold;    
+}
+.text2{
+    height: 400px;
+    transform: rotate(180deg);
+    border-left: 1px solid #fff;
+}
+.detail img,.detail2 img,.detail3 img,.detail4 img{
+    height: 300px;
+    object-fit: cover;
+}
+.detail2,.detail3,.detail4{
+    display: none;
+}
+.detail-btn,.detail-btn1,.detail-btn2,.detail-btn3{
+    cursor: pointer;
+}
+.disable-detail{
+    color: #6c757d;
+}
+.active-detail{
+    color: #fff;
+}
+.btn-2{
+    padding: 15px 25px;
+    border: 1px solid #303952;
+    color: #303952;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-2:hover{
+    background-color: #303952;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+    .bg-color{
+        background-color: #edede4;
+    }
+
+    .headphone-img{
+        width: 200px;
+        height: 200px;
+        background: url(../images/page1/ass-mic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+    .circle-parent:hover{
+        background-color: #ccae62;
+        border: 4px solid #ccae62;
+    transition: all 0.5s ease-in-out;
+        
+    }
+
+    .circle,.circle-parent{
+        width: 200px;
+        height: 200px;
+        background-color: #303952;
+        border: 4px solid #303952;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: relative;
+    transition: all 0.5s ease-in-out;
+
+    }
+    .circle:hover{
+        width: 190px;
+        height: 190px;
+        border: 4px solid #fff;
+        background-color: #ccae62;
+    transition: all 0.5s ease-in-out;
+
+    }
+    .future{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page1/book-your-consult-background-min-scaled.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+    
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+.exp{
+    padding: 20px;
+    height: 287px;
+    background-color: #303952;  
+}
+.ans1,.ans2,.ans3,.ans4{
+    display: none;
+}
+
+.faq .mt-4{
+        border-top: 1px solid rgba(0, 0, 0,0.2);
+        border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    padding: 30px 0px;
+    }
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+
+.form{
+    width: 50%;
+    min-height: 600px;
+    padding: 20px;
+    background-color: #303952;
+}
+.testimonial{
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+    background-color: #fff;
+}
+.form form select,.select,.form form input{
+    width: 250px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0px 10px 0px;
+}
+.form form input{
+    width: 150px;
+}
+.form form input{
+    color: #fff;
+}
+.form form select option{
+    color: #000;
+}
+.select p i{
+    font-size: 12px;
+    font-weight: bold;
+}
+.review-slide{
+    width: 100%;
+}
+.next i,.prev i{
+    font-size: 40px;
+}
+.next i:hover{
+    cursor: pointer;
+}
+.prev i:hover{
+    cursor: pointer;
+}
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+.package{
+    max-width: 400px;
+    background-color: #d0d1d3;
+    padding: 20px 30px;
+    min-height: 600px;
+}
+.package .ul li{
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+.package div a{
+    background-color: #303952;
+}
+.package2 div a{
+    background-color: #fff;
+    color: #000;
+
+}
+.package2{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(rgba(204,174,98,0.9),rgba(204,174,98,0.9)),url(../images/page1/home-pricing-table-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #fff;
+}
+.package1:hover{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(rgba(204,174,98,0.9),rgba(204,174,98,0.9)),url(../images/page1/pricing-tabel-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #fff;
+}
+.package3:hover{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(rgba(204,174,98,0.9),rgba(204,174,98,0.9)),url(../images/page1/pricing-tabel-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #fff;
+}
+.package1:hover .package1 div .btn-1{
+    background-color: #fff;
+}
+/* <!-- section ends here....................  --> */
+
+/* <!-- section start here....................  --> */
+.blog{
+    padding: 10px;
+
+}
+.blog-img{
+    /* border: 1px solid #000; */
+    overflow: hidden;
+
+}
+.blog-img img{
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
+}
+.blog-img img:hover{
+   margin-left: 20px;
+   transition: all 0.5s ease-in-out;
+
+}
+/* <!-- section ends here....................  -->/ */
+
+
+
+/* <!-- section start here....................  --> */
+.bg-insta{
+    width: 300px;
+    height: 300px;
+    background: url(../images/page1/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.insta-img-parent{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.insta-img{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/instagram-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.insta-img2{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/instagram-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.insta-img3{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/instagram-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.insta-img4{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/instagram-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.insta-img5{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/instagram-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.insta-img6{
+    width: 110%;
+    height: 110%;
+    background: url(../images/page1/home-1-instagram-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.insta-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48,57,82,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.insta-overlay a i{
+    font-size: 30px;
+}
+.insta-img:hover,.insta-img2:hover,.insta-img3:hover,.insta-img4:hover,.insta-img5:hover,.insta-img6:hover{
+    transform: translateX(-20px);
+    transition: all 0.5s ease-in-out;
+}
+.in-img:hover .insta-overlay{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    transition: all 0.5s ease-in-out; 
+}  
+/* <!-- section ends here....................  -->/ */
+
+/* <!-- section start here....................  --> */
+/* <!-- section ends here....................  -->/ */
+
+
+/* <!-- section start here....................  --> */
+/* <!-- section ends here....................  -->/ */
+
+/* <!-- Footer start here....................  --> */
+
+footer{
+    background-color: #303952;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+.footer-ul{
+    list-style: none;
+    padding: 0px;
+}
+footer ul li{
+    margin-top: 10px;
+}
+footer h3{
+    color: #ccae62;
+}
+.footer{
+    border-top: 1px solid #fff;
+}
+
+@media screen and (max-width:992px){
+    .text2 h1{
+        writing-mode: horizontal-tb;
+        font-weight: bold;    
+    }
+    .text2{
+        height: 80px;
+        transform: rotate(0deg);
+        border-bottom: 1px solid #fff;
+        border-left: none;
+    }
+    .form{
+        width: 100%;
+        min-height: 700px;
+    }
+    .testimonial{
+        width: 100%;
+        min-height: 600px;
+    }
+    .form form select,.select,.form form input{
+        width: 250px;
+       
+    }
+    .form form input{
+        width: 250px;
+    }
+}
+
+/* Hide default navigation icons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    position: relative;
+}
+/* Add your custom icons */
+.swiper-button-next::before {
+    content: '\203A'; /* Unicode arrow right */
+    font-size: 60px;
+    color: #000;
+    position: absolute;
+    top: 39px;
+    right: 0;
+
+}
+
+.swiper-button-prev::before {
+    content: '\203A'; /* Unicode arrow left */
+    font-size: 60px;
+    color: #000;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50px;
+    left: 0%;
+ 
+}
+
+
+/* <!-- Footer ends here....................  --> */
+
+
+
+/* practice css start here.....................   */
+    .practice-img{
+        width: 100%;
+        min-height: 60vh;
+        background: linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page1/book-your-consult-background-min-scaled.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        color: #fff;
+    }
+    .practice-img a,.work-img a{
+        color: #fff;
+    }
+    .practice-img a:hover,.work-img a:hover{
+        color: #ccae62;
+    }
+
+/* practice css ends here.....................   */
+
+
+/* Work css ends here.....................   */
+
+.work-img{
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page3/list-sider-bar\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.bg-blue{
+    background-color: #303952;
+}
+.icon-box{
+    width: 200px;
+    height: 200px;
+    background-color: #edede4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stroke{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    font-size: 50px;
+}
+.process{
+    width: 100%;
+    min-height: 100vh;
+}
+.process-img{
+    width: 40%;
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)), url(../images/page2/our-process-appointment-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.process-img a{
+    color: #fff;
+}
+.work-form{
+    width: 60%;
+    min-height: 100vh;
+    background-color: #edede4;
+}
+.work-form input,.work-form textarea{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #303952;
+    padding: 5px;
+}
+.btn-4{
+    padding: 10px 15px;
+    background-color: #303952;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn-4:hover{
+    background-color: #ccae62;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width:768px) {
+    .process-img{
+        width: 100%;
+    }
+    .work-form{
+        width: 100%;
+    }
+}
+/* Work css ends here.....................   */
+
+/* Blog css ends here.....................   */
+
+.blog-bg-img{
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page3/book-your-consult-background-min-scaled\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.blog-bg-img a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.blog-bg-img a:hover{
+    color: #ccae62;
+    transition: all 0.5s ease-in-out;
+}
+.blog-search input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0px;
+}
+.blog-search i{
+    color: #ddd;
+}
+.blog-search{
+    width: 100%;
+    padding: 2px 5px;
+    border-bottom: 2px solid #ddd;
+}
+.list-unstyled li{
+    margin: 10px;
+    font-size: 18px;
+}
+.list-unstyled li a{
+    transition: all 0.5s ease-in-out;
+
+}
+.list-unstyled li a:hover{
+    border-bottom: 1px solid #ccae62;
+    color: #ccae62;
+    transition: all 0.5s ease-in-out;
+}
+/* Blog css ends here.....................   */
+
+
+/* shop css starts here.....................   */
+.shop-img{
+    width: 100%;
+    min-height: 60vh;
+    background: linear-gradient(rgba(48,57,82,0.9),rgba(48,57,82,0.9)),url(../images/page4/bred-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.shop-img a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.shop-img a:hover{
+    color: #ccae62;
+    transition: all 0.5s ease-in-out;
+}
+.tiles{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #303952;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.tiles i{
+    font-size: 24px;
+}
+.shop-select{
+    background: none;
+    outline: none;
+    border: none;
+    padding: 5px;
+    padding-bottom: 4px;
+    width: 50%;
+    border-bottom: 2px solid #ddd;
+}
+.shop-card{
+
+    min-height: 400px;
+    position: relative;
+    padding: 10px;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+.bage{
+    padding: 5px 5px;
+    background-color: #ccae62;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    z-index: 1;
+}
+.shop-card img{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+
+}
+.shop-card img:hover{
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccae62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart a{
+    font-size: 20px;
+    color: #fff;
+}
+/* shop css ends here.....................   */
+
+.contact-img{
+    width: 100%;
+    height: 400px;
+    background:  linear-gradient(rgba(48,57,82,0),rgba(48,57,82,0.9)), url(../images/page3/contact-us-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: all 0.5s ease-in-out;
+
+}
+.ball:hover{
+    cursor: pointer;
+    background-color: #ccae62;
+    transition: all 0.5s ease-in-out;
+}
+.ball:hover a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.contact-card{
+    width: 100%;
+    min-height: 300px;
+}
+.contact-card:hover{
+    width: 100%;
+    min-height: 300px;
+    background: linear-gradient(rgba(204,174,98,0.7),rgba(204,174,98,0.7)),url(../images/page3/home-2-process-background-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #fff;
+}
+@media screen and (max-width:992px){
+    .news-letter{
+        width: 400px;
+    }
+    .letter-form{
+        width: 100%;
+    }.letter-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .news-letter{
+        width: 300px;
+    }
+
+}
